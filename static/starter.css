@@ -1,0 +1,16 @@
+/* Bootstrap Theme */
+body {
+  padding-top: 5rem;
+}
+.starter-template {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+/* Form Logic */
+.form {
+	outline: 1px solid;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+}

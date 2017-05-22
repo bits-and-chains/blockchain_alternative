@@ -62,7 +62,11 @@ class EntryForm(FlaskForm):
     submit = SubmitField("Share")
 
 @app.route('/')
-def product_form():
+def form():
+    return render_template('form.html')
+
+@app.route('/submit', methods=['POST'])
+def product_submit():
     return render_template('form.html')
 
 
