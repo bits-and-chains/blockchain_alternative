@@ -7,7 +7,16 @@ body {
   text-align: center;
 }
 
-/* Form Logic */
+/* Transaction Styles */
+.transactions {
+	outline: 1px solid grey;
+	background-color: grey;
+	padding-top: 20px;
+	padding-right: 30px;
+	padding-left: 30px;
+}
+
+/* Form Styles*/
 .form {
 	outline: 1px solid;
 	padding-top: 20px;
